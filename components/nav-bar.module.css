@@ -1,0 +1,347 @@
+.frameJoinIn {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--grey-white);
+  box-shadow: var(--navbar);
+}
+.hobbycueLogoV21 {
+  height: 60px;
+  width: 293.3px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-hover);
+  border: 1px solid var(--grey-lighter);
+  box-sizing: border-box;
+  mix-blend-mode: normal;
+}
+.searchHere {
+  position: relative;
+  line-height: 16px;
+  font-weight: 300;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameSearchHere {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.frameNotificationsBlackDp,
+.icons8Search1 {
+  position: absolute;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+}
+.frameNotificationsBlackDp {
+  top: 0;
+  left: 0;
+  background-color: var(--primary-full);
+  width: 100%;
+  height: 100%;
+}
+.icons8Search1 {
+  top: 12px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  z-index: 1;
+}
+.frameNotificationsBlackDpParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xs);
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frameWrapper,
+.hobbycueLogoV21Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+}
+.hobbycueLogoV21Parent {
+  width: 628px;
+  flex-direction: row;
+  gap: 34.69999999999982px;
+  max-width: 100%;
+}
+.exploreIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.explore {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.connectWithSeparator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.icons8ExpandArrow1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.exploreParent,
+.homeScreenFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exploreParent {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.homeScreenFrame {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.hobbiesIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signInText {
+  height: 19px;
+  width: 19px;
+  position: relative;
+}
+.exploreGroupIcon {
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  margin: 0 !important;
+  top: 6px;
+  left: 6px;
+  border-radius: var(--br-12xs-4);
+  z-index: 1;
+}
+.hobbies {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+  margin-top: -24px;
+}
+.productFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hobbies1 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.homeScreenFrame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.icons8ExpandArrow11 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.bookmarkFrame,
+.productFrameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productFrameParent {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.bookmarkFrame {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.bookmarkBlack24dp1Icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bookmarkDP {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.notificationsBlack24dp1Icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bookmarkDP1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.product3Icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bookmarkDP2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.agreeTermsButton {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--primary-full);
+  box-sizing: border-box;
+}
+.signIn {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  z-index: 1;
+}
+.agreeTermsButtonParent {
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-13xl) var(--padding-sm);
+  position: relative;
+  white-space: nowrap;
+}
+.agreeTermsButtonParent,
+.frameContainer,
+.homeScreenFrameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameContainer {
+  justify-content: flex-start;
+  color: var(--primary-full);
+}
+.homeScreenFrameParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frameExploreIconsExpandArr,
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameExploreIconsExpandArr {
+  width: 525px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  font-size: var(--text-sm-bold-size);
+  color: var(--base-black);
+}
+.navbar {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  position: sticky;
+  gap: var(--gap-71xl);
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--grey-dark);
+  font-family: var(--text-sm-bold);
+}
+ @media screen and (max-width: 750px) {
+  .hobbycueLogoV21Parent {
+    gap: 34.69999999999982px 17px;
+  }
+  .navbar {
+    gap: 90px 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    gap: 90px 22px;
+  }
+} 
+
+ 

@@ -1,0 +1,87 @@
+.googleIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.continueWithGoogle {
+  position: relative;
+  font-size: var(--text-sm-bold-size);
+  line-height: 16px;
+  font-weight: 600;
+  font-family: var(--text-sm-bold);
+  color: var(--grey-darkest);
+  text-align: left;
+}
+.loginWithOtherAccounts {
+  cursor: pointer;
+  border: 1px solid var(--primary-full);
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--purple-3);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-69xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.loginWithOtherAccounts1:hover,
+.loginWithOtherAccounts:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-plum);
+  box-sizing: border-box;
+}
+.facebookIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.continueWithFacebook {
+  position: relative;
+  font-size: var(--text-sm-bold-size);
+  line-height: 16px;
+  font-weight: 600;
+  font-family: var(--text-sm-bold);
+  color: var(--grey-darkest);
+  text-align: left;
+}
+.loginWithOtherAccounts1,
+.loginWithOtherAccountsParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginWithOtherAccounts1 {
+  cursor: pointer;
+  border: 1px solid var(--primary-full);
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--purple-3);
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-60xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.loginWithOtherAccountsParent {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+@media screen and (max-width: 450px) {
+  .loginWithOtherAccounts {
+    gap: 88px 44px;
+  }
+  .loginWithOtherAccounts1 {
+    gap: 79px 39px;
+  }
+}
