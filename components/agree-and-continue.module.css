@@ -1,0 +1,121 @@
+.hobby {
+  color: var(--blue-1);
+}
+.passion {
+  color: var(--primary-full);
+}
+.exploreYourHobbyContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+  font-family: inherit;
+  max-width: 100%;
+  z-index: 1;
+}
+.ifYouAre,
+.signInToInteract {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  font-weight: 300;
+  z-index: 1;
+}
+.signInToInteract {
+  align-self: stretch;
+}
+.ifYouAre {
+  flex: 1;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.exploreYourHobby,
+.signInFrame,
+.termsOfService {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.signInFrame {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.exploreYourHobby,
+.termsOfService {
+  flex-direction: column;
+}
+.exploreYourHobby {
+  gap: var(--gap-base);
+  font-size: var(--text-sm-bold-size);
+}
+.termsOfService {
+  gap: var(--gap-13xl);
+}
+.rECTANGLE,
+.rECTANGLE1 {
+  height: 216px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 219px;
+  min-height: 216px;
+  z-index: 1;
+}
+.rECTANGLE1 {
+  min-width: 225px;
+}
+.agreeAndContinue,
+.fRAME {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fRAME {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 14.400000000000093px;
+}
+.agreeAndContinue {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-61xl);
+  min-width: 460px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--base-black);
+  font-family: var(--text-sm-bold);
+}
+@media screen and (max-width: 1050px) {
+  .exploreYourHobbyContainer {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .termsOfService {
+    gap: 16px 32px;
+  }
+  .fRAME {
+    flex-wrap: wrap;
+  }
+  .agreeAndContinue {
+    gap: 40px 80px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .exploreYourHobbyContainer {
+    font-size: var(--font-size-3xl);
+  }
+  .agreeAndContinue {
+    gap: 20px 80px;
+  }
+}

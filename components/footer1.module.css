@@ -1,0 +1,443 @@
+.footerChild {
+  align-self: stretch;
+  height: 380px;
+  position: relative;
+  background-color: var(--grey-white);
+  display: none;
+}
+.aboutUs,
+.hobbycue {
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.hobbycue {
+  align-self: stretch;
+}
+.aboutUs {
+  width: 64px;
+}
+.hobbycueLogo {
+  width: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.howDoI,
+.signUp {
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.howDoI {
+  align-self: stretch;
+}
+.signUp {
+  width: 54px;
+  white-space: nowrap;
+}
+.hobbycueLogo1 {
+  width: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.listings,
+.quickLinks {
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.quickLinks {
+  align-self: stretch;
+}
+.listings {
+  width: 53px;
+}
+.hobbycueLogo2 {
+  width: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.socialMedia {
+  align-self: stretch;
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.signUpFrameChild,
+.signUpFrameItem {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+  z-index: 1;
+}
+.signUpFrame,
+.socialMediaParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.socialMediaParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameChild {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  min-width: 78px;
+}
+.frameChild1,
+.frameChild2,
+.frameInner,
+.frameItem,
+.groupIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.frameParent,
+.socialMediaFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  width: 360px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.socialMediaFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contactUs,
+.faq,
+.ourServices,
+.workWithUs {
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.ourServices,
+.workWithUs {
+  align-self: stretch;
+}
+.contactUs,
+.faq {
+  width: 28px;
+}
+.contactUs {
+  width: 79px;
+}
+.ourServicesParent {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.addAListing,
+.claimListing {
+  width: 91px;
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.postAQuery {
+  width: 90px;
+}
+.addABlog,
+.otherQueries,
+.postAQuery {
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.addABlog {
+  align-self: stretch;
+  white-space: nowrap;
+}
+.otherQueries {
+  width: 98px;
+}
+.addAListingParent {
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.blogPosts {
+  width: 73px;
+}
+.blogPosts,
+.community,
+.shopStore {
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.shopStore {
+  align-self: stretch;
+  white-space: nowrap;
+}
+.community {
+  width: 85px;
+}
+.blogPostsParent {
+  width: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.inviteFriends {
+  width: 99px;
+  height: 18px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.emailId,
+.rectangleDiv {
+  align-self: stretch;
+  position: relative;
+}
+.rectangleDiv {
+  width: 360px;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--primary-full);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.emailId {
+  height: 16px;
+  line-height: 16px;
+  display: inline-block;
+  z-index: 1;
+}
+.emailIDInput {
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.frameChild3 {
+  height: 40px;
+  width: 59px;
+  position: relative;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--primary-full);
+  display: none;
+}
+.invite {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  font-weight: 600;
+  z-index: 2;
+}
+.rectangleGroup,
+.rectangleParent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 1;
+}
+.rectangleGroup {
+  height: 40px;
+  width: 59px;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--primary-full);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  color: var(--grey-white);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--primary-full);
+  justify-content: space-between;
+  padding: 0 var(--padding-11xs) 0 var(--padding-sm);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xs);
+  color: var(--grey-dark);
+}
+.inviteFriendsFrame,
+.inviteFriendsFrameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inviteFriendsFrame {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.inviteFriendsFrameWrapper {
+  width: 360px;
+  padding: var(--padding-29xl) 0 0;
+  box-sizing: border-box;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contactUsFrame,
+.frameContainer,
+.howDoISignUpFrame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.howDoISignUpFrame {
+  width: 1217px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.contactUsFrame {
+  width: 1421px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameChild4 {
+  height: 78px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--purple-3);
+  display: none;
+  max-width: 100%;
+}
+.purpleCuesPrivate {
+  align-self: stretch;
+  width: 211px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.footer,
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-sm-bold-size);
+  color: var(--grey-darkest);
+  font-family: var(--text-sm-bold);
+}
+.rectangleContainer {
+  height: 78px;
+  background-color: var(--purple-3);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-11xl) var(--padding-xl);
+  z-index: 1;
+}
+.footer {
+  background-color: var(--grey-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) 0 0;
+  gap: var(--gap-41xl);
+}
+@media screen and (max-width: 750px) {
+  .frameContainer,
+  .socialMediaFrame {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: 30px 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent,
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+  .footer {
+    padding-top: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
